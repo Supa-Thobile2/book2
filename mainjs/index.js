@@ -15,7 +15,7 @@ function registerUser(){
     
     
 }
-// registerUser()
+registerUser()
 
 
 
