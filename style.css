@@ -1,0 +1,598 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+    
+}
+
+
+.container{
+    display: flex;
+    min-width: 1900px;
+    
+    background-color: #E28413;
+ 
+     
+     
+     
+    
+     
+ }
+
+/*****************Left**********************/
+
+.left
+{
+    
+    padding: 25px;
+    border-right: 2px solid #5A0001 ;
+    
+    
+    
+   
+}
+
+.left-img{
+    width: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+
+.left img{
+    width: 80px;
+   
+    padding: 5px;
+    border-radius: 16px;
+  
+}
+
+
+
+.welcome-message{
+   
+   
+   
+        width: 80px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+    
+    
+ }
+
+
+.welcome-message p{
+    
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 400;
+    font-family: calibri;
+    color: #F6E8EA;
+   
+}
+
+
+.conte{
+    
+        
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    
+}
+
+.conte li{
+    list-style: none;
+    padding: 30px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: calibri;
+    color: #F6E8EA;
+}
+
+.conte img{
+    width: 40px;
+    padding: 20px;
+   
+}
+
+.brandImage{
+    
+        width: 80px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+    
+}
+
+
+/*****************Right**********************/
+
+
+/**********NavBar*****/
+
+.navBar{
+    width: 1600px;
+  
+   
+   
+    
+  
+}
+
+.nav{
+    display: flex;
+  
+    width: 100%;
+    
+    margin: 0 auto;
+
+}
+
+
+.logo{
+  
+    width: 50%;
+    padding: 20px;
+   
+}
+
+
+.nav-items{
+    width: 50%;
+    padding: 20px;
+    
+    
+    
+}
+
+
+.nav-items form{
+    display: inline;
+    padding-right: 30px;
+    
+ }
+
+
+.nav-items input{
+    border-radius: 20px;
+    padding: 5px;
+    
+}
+
+
+
+
+
+
+.nav-items span{
+   
+    padding: 30px;
+    
+    
+    
+ }
+ 
+ 
+
+
+
+.nav img{
+    width: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************Login**********************/
+
+.loginForm{
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 100px;
+    height: 100vh;
+    
+}
+
+
+
+.loginForm h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: calibri;
+    letter-spacing: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    color: #FAFAFF;
+}
+
+#form{
+    width: 400px;
+    
+    margin: 0 auto;
+    
+   
+
+    color: #FAFAFF;
+}
+
+ p{
+    font-family: calibri;
+    padding-top: 30px;
+    color: #EAEAEA;
+    text-align: center;
+}
+
+a{
+    color: #CBC5EA;
+    font-family: calibri;
+    text-transform: uppercase;
+}
+
+input{
+    width: 400px;
+    margin-top: 20px;
+    padding-top: 10px;
+
+    letter-spacing: 5px;
+    line-height: 5px;
+    font-family: calibri;
+    font-size: 20px;
+}
+
+
+
+label{
+    letter-spacing: 5px;
+    line-height: 5px;
+    font-family: calibri;
+    text-transform: uppercase;
+}
+
+
+.loginPage{
+    background-color: #30343F;
+    background-position: center;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.read{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 100px;
+    height: 100vh;
+}
+
+
+.books{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    
+    padding-left: 100px;
+   
+   
+   
+   
+}
+
+.books h1{
+    display: block;
+}
+
+
+
+.books .card{
+    width: 300px;
+    
+   
+    background-color: #DD4B1A;
+    border-radius: 9px;
+    
+   
+    margin: 0 auto;
+    
+   
+    
+}
+
+
+.books .card img{
+    width: 80px;
+    
+  
+    float: left;
+    clear: both;
+    
+    padding: 10px;
+   
+}
+
+
+
+
+.books .card h2{
+    font-size: 17px;
+    padding: 10px;
+   
+    
+   
+}
+
+.books .card p{
+    font-size: 12px;
+    display: inline;
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.navBar{
+    background-color: red;
+    width: 1600px;
+    padding: 20px;
+    
+}
+
+.nav{
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    padding: 40px;
+}
+
+.logo img{
+    width: 40px;
+}
+*/
+
+
+
+
+
+
+
