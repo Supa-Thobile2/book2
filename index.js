@@ -12,7 +12,12 @@ function registerUser(){
     let image = document.getElementById("myFile").value;
     console.log(firstName, lastName, phoneNumber, email, image)
 
+
+
+
     message.innerText = "Registered successfully";
+
+   
     
     
     

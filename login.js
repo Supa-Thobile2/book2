@@ -1,4 +1,5 @@
 let message = document.getElementById("message")
+
 function login(){
     
     let email = document.getElementById("email").value;
@@ -11,6 +12,8 @@ function login(){
     
 
     message.innerText = "Login successful";
+
+    
     
 }
-// login()
+
